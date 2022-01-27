@@ -1,5 +1,5 @@
 # Discrete-Event-Simulator-ExcelFed
-This is a school project from Data Structures and Algorithms course. It is an application of discrete event simulation where and is an quite complex problem.  The aim of the project is to serve as much as player that come to the tennis court at discrete times for different services. The project graded as full point by the course instructors.
+This is a school project from Data Structures and Algorithms course. It is an application of discrete event simulation where and is an quite complex problem. The aim of the project is to serve as much as player that come to the tennis court at discrete times for different services. Players also have different priorities to be served. To solve the problem, **Priority Queue** data structure is used effectively. The project graded as **100/100** by the course instructors.
   
   **REFERENCE: Following Parts are project descriptions that are written by assistants of the course CmpE250 (Data Structures and Algorithms) in Bogazici University**
   
@@ -16,11 +16,13 @@ the next event”. In other words, DES is the representation of a certain proces
 certain events which occur at certain times. Hence, time is not continuous in DES and progress
 according to the events. As a demonstrative example, a process of taking a coffee can be
 simulated as follows:  
+
 • TIME: 09:00 Go into the checkout queue.  
 • TIME: 09:05 Order your coffee and make your payment.  
 • TIME: 09:10 Go into the serving queue.  
 • TIME: 09:15 Wait for the preparation of your coffee and enjoy your free time.  
 • TIME: 09:20 Grab your coffee and enjoy!  
+
 Note that in DES the only things that count are events and everything else is ignored. In
 the case of the customer, until 09:20 only 5 things happened. Additionally, the time progressed
 in a discrete fashion (i.e. jumped from one event to the next one). 1
